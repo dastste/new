@@ -1,0 +1,188 @@
+@media(max-width: 445px){
+    html, body{
+        max-width: 445px;
+        margin: auto;
+    }
+    .mage{
+        display: none;
+    }
+    .ham, .close{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 0;
+        height: 15px;
+    }
+    .close{
+        width: 35px;
+        visibility: hidden;
+    }
+    .header{
+        display: block;
+        height: 50px;
+        position: relative;
+        top: 0;
+        line-height: 50px;
+        background-color: hsl(0, 0%, 100%);
+    }
+    .bg{
+        width: 100%;
+    }
+
+    #nav{
+        display: block;
+        background-color: hsl(0, 0%, 100%);
+        width: 80%;
+        margin: 30px 10%;
+        visibility: hidden;
+    }
+
+    #nav ul{
+        display: block;
+        font-size: 25px;
+        text-align: center;
+        padding: 2rem 0;
+        padding-right: 2.5rem;
+    }
+    .ly-1{
+        position: absolute;
+        top: -250px;
+        object-fit: cover;
+        width: 700px;
+        object-position: 120px -0px;
+    }
+    .ly-2{
+        position: absolute;
+        top: -80px;
+        width: 425px;
+        object-fit: cover;
+        object-position: 0px 0px;
+    }
+
+    .showcase{
+        position: relative;
+        display: block;
+        min-height: 1400px;
+        padding: 0;
+    }
+    .fir-ly{
+        position: absolute;
+        top: 640px;
+        max-width: 445px;
+        width: 80%;
+        font-size: 30px;
+        line-height: 50px;
+        font-weight: 300;
+        margin: auto;
+    }
+    .fir-ly>img{
+        padding-top: 20px;
+        text-align: left;
+    }
+    h1{
+        font-size: 40px;
+        white-space: nowrap;
+    }
+     .txt{
+         padding-left: 0.5rem;
+     }
+    .set img{
+        padding-bottom: 1rem;
+    }
+    h4{
+        font-size: 20px;
+        padding-bottom: 1rem;
+        white-space: pre;
+    }
+
+    h2{
+        font-weight: 400;
+        white-space: wrap;
+        width: 445px;
+    }
+    .pa{
+        white-space: wrap;
+        width: 100%;
+        max-width: 445px;
+        text-align: center;
+    }
+    .h2{
+        display: block;
+    }
+    .section, .section-1{
+        padding: 0;
+    }
+    .article{
+        display: block;
+        font-size: 24px;
+        text-align: center;
+        line-height: 40px;
+        margin: auto;
+    }
+    .article-1{
+        padding-left: 2.5rem;
+    }
+    .sect{
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .h-4{
+        text-align: left;
+    }
+    #footer{
+        display: block;
+        text-align: center;
+        padding-right: 5rem;
+    }
+    h2{
+        margin-left: 120px;
+    }
+}
+@media(max-width: 768px){
+    .ly-1{
+        position: absolute;
+        top: -250px;
+        object-fit: cover;
+        width: 700px;
+        object-position: 120px -0px;
+    }
+    .ly-2{
+        position: absolute;
+        top: -80px;
+        width: 425px;
+        object-fit: cover;
+        object-position: 0px 0px;
+    }
+
+    .showcase{
+        position: relative;
+        display: block;
+        min-height: 1400px;
+        padding: 0;
+    }
+    .fir-ly{
+        position: absolute;
+        top: 640px;
+        left: 50px;
+        max-width: 445px;
+        width: 80%;
+        font-size: 30px;
+        line-height: 50px;
+        font-weight: 300;
+        margin: auto;
+    }
+    .fir-ly>img{
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+    .h-4{
+        font-size: 30px;
+    }
+    .article, .article-1{
+        font-size: 25px;
+    }
+    h4{
+        padding-bottom: 1.5rem;
+    }
+}
